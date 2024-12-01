@@ -29,7 +29,9 @@ if you put it in /bin do this too:
 sudo (or doas) make bin
 ```
 then
-```sudo nixless```
+```
+sudo nixless
+```
 
 ---
 to uninstall/update do 
