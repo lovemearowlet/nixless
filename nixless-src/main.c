@@ -3,5 +3,5 @@
 
 int main() {
     printf("Starting Rebuild...");
-    pkg();
+    pkgs();
 }
