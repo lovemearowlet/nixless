@@ -7,5 +7,5 @@
 
 */
 int pkgs() {
-    pkgin("no package used/config not configed");
+    pkgin("echo no package used/config not configed");
 }
