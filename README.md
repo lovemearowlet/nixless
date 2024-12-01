@@ -27,3 +27,10 @@ sudo (or doas) make bin
 ```
 ---
 after install make a /nixless dir and add ```resetpkg();``` to config.c in front of each package for most functionality.
+---
+to uninstall/update something do 
+```
+sudo rm -rf /nixless/(packagename)
+```
+if ur uninstalling then remove the entry and rebuild
+if ur updateing dont remove the entery and rebuild
