@@ -17,4 +17,4 @@ if you want it in /bin/ (must be done if ur doing a rebuild and did this step du
 sudo (or doas) make bin
 ```
 ---
-after install make a /nixless dir and add ```reset();``` to config.c in front of each package for most functionality.
+after install make a /nixless dir and add ```resetpkg();``` to config.c in front of each package for most functionality.
