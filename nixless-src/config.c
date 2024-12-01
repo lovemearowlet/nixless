@@ -2,7 +2,7 @@
 /*
 
     Nixless Config:
-    
+    pkgin("build thing here") but replace build thing with the steps to build
 
 
 */
