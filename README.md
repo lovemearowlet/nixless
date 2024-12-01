@@ -6,12 +6,12 @@ a horribly writen suckless styled nix thing (kinda a joke obv). this is very exs
 3. if you did it right then it should install
 ```
 ---
-to install (might not work):
+to install:
 ```
 cd nixless/nixless-src
 make install
 ```
-if you have lots of confidence in my stuff then do 
+if you want it in /bin/ 
 ```
 make bin
 ```
