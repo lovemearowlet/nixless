@@ -1,7 +1,9 @@
-#include "cloner.c"
+#include "config.c"
 
 int main() {
-	printf("Please rebuild now!");
+	printf("Starting\n");
 	updatenl();
+	pkgs();
+	printf("Done\n");
 	return 0;
 }
