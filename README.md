@@ -16,3 +16,5 @@ if you want it in /bin/ (must be done if ur doing a rebuild and did this step du
 ```
 sudo (or doas) make bin
 ```
+---
+after install make a /nixless dir and add ```pkgin("cd /nixless");``` to config.c in between each package for most functionality.
