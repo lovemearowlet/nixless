@@ -6,6 +6,8 @@ a horribly writen suckless styled nix package manager thing (kinda a joke obv). 
 2. run sudo (or doas) nixless
 3. if you did it right then it should install stuff from the config file
 ```
+after install make a /nixless dir and add ```resetpkg();``` to config.c in front of each package for most functionality.
+
 ---
 to install:
 ```
@@ -18,6 +20,7 @@ sudo (or doas) make bin
 ```
 ---
 to rebuild:
+go in to the source
 ```
 make install
 ```
@@ -26,11 +29,10 @@ if you put it in /bin do this too:
 sudo (or doas) make bin
 ```
 ---
-after install make a /nixless dir and add ```resetpkg();``` to config.c in front of each package for most functionality.
----
-to uninstall/update something do 
+to uninstall/update do 
+to uninstall a package remove the entry then rebuild
+to update do:
 ```
-sudo rm -rf /nixless/(packagename)
+sudo rm -rf /nixless/*
 ```
-if ur uninstalling then remove the entry and rebuild
-if ur updateing dont remove the entery and rebuild
+then rebuild (update utility coming soon)
