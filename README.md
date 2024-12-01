@@ -31,8 +31,8 @@ sudo (or doas) make bin
 ---
 to uninstall/update do 
 to uninstall a package remove the entry then find the package src in /nixless/ then remove it then rebuild
+---
 to update do:
 ```
 sudo (or doas) nixless-u
 ```
-then rebuild
