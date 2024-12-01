@@ -1,2 +1,2 @@
 # nixless
-a suckless styled nix thing
+a suckless styled nix thing (kinda a joke obv)
