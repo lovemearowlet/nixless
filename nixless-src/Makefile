@@ -1,5 +1,5 @@
 install:
-        gcc main.c -o nixless
+	gcc main.c -o nixless
 
 bin:
-        cp nixless /bin/
+	cp nixless /bin/
