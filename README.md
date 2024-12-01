@@ -11,7 +11,7 @@ to install (might not work):
 cd nixless/nixless-src
 make install
 ```
-if you have losts of confidence in my stuff then do 
+if you have lots of confidence in my stuff then do 
 ```
 make bin
 ```
