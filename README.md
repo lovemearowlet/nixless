@@ -23,7 +23,7 @@ make install
 ```
 if you put it in /bin do this too:
 ```
-make bin
+sudo (or doas) make bin
 ```
 ---
 after install make a /nixless dir and add ```resetpkg();``` to config.c in front of each package for most functionality.
