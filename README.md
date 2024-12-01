@@ -1,5 +1,5 @@
 # nixless
-a horribly writen suckless styled nix package manager thing (kinda a joke obv). this is very exsperimental btw and works on my pc. also it doesnt manage dependancys. how to use it:
+a horribly writen suckless styled nix-like configed package manager thing (kinda a joke obv). this is very exsperimental btw and works on my pc. also it doesnt manage dependancys. how to use it:
 ```
 1. config the config.c file
 2. rebuild it
