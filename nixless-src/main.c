@@ -2,7 +2,7 @@
 #include "config.c"
 
 int main() {
-    printf("Starting Rebuild...");
+    printf("Done");
     pkgs();
     return 0;
 }
