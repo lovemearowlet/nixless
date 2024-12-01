@@ -1,4 +1,4 @@
-#include "config.c"
+#include "config.h"
 
 int main() {
 	printf("Starting\n");
