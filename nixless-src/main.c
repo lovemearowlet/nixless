@@ -2,7 +2,7 @@
 #include "config.c"
 
 int main() {
-    printf("Done");
+    printf("Done\n");
     pkgs();
     return 0;
 }
