@@ -6,13 +6,11 @@ a horribly writen suckless styled nix-like configed package controler-ish thing 
 2. run sudo (or doas) nixless
 3. if you did it right then it should install stuff from the config file
 ```
-after install make a /nixless dir and add ```resetpkg();``` to config.c in front of each package for most functionality.
-
 ---
 to install:
 ```
 cd nixless/nixless-src
-make install
+make
 ```
 if you want it in /bin/ 
 ```
@@ -26,7 +24,7 @@ make install
 ```
 if you put it in /bin do this too:
 ```
-sudo (or doas) make bin
+sudo (or doas) make install
 ```
 then
 ```
@@ -39,5 +37,9 @@ to uninstall a package remove the entry then find the package src in /nixless/ t
 ---
 to update do:
 ```
-sudo (or doas) nixless-u
+sudo (or doas) nixless -u
+```
+or
+```
+sudo (or doas) nixless --update
 ```
