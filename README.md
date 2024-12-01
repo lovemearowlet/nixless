@@ -7,14 +7,23 @@ a horribly writen suckless styled nix package manager thing (kinda a joke obv). 
 3. if you did it right then it should install stuff from the config file
 ```
 ---
-to install/rebuild:
+to install:
 ```
 cd nixless/nixless-src
 make install
 ```
-if you want it in /bin/ (must be done if ur doing a rebuild and did this step during install)
+if you want it in /bin/ 
 ```
 sudo (or doas) make bin
+```
+---
+to rebuild:
+```
+make install
+```
+if you put it in /bin do this too:
+```
+make bin
 ```
 ---
 after install make a /nixless dir and add ```resetpkg();``` to config.c in front of each package for most functionality.
